@@ -7,8 +7,8 @@ public class Switch {
         System.out.println("Enter your Name");
 
         String name = user.nextLine();
-        System.out.print("type 1 if you're under 18");
-        System.out.print("type 2 if you're over 18");
+        System.out.print("type minor if you're under 18");
+        System.out.print("type legal if you're over 18");
         String legal = user.nextLine();
         System.out.print("");
 
@@ -22,7 +22,7 @@ public class Switch {
                 System.out.println("You may now proceed!");
                 break;
             default:
-                System.out.println("Invalid!");               
+                System.out.println(name + ", Your input is invalid");               
         }
 
         user.close();
