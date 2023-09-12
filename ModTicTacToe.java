@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/** Modified TicTacToe game */
+
 public class TicTacToe {
     protected static final int X = 1, O = -1; // Players
     protected static final int EMPTY = 0; // Empty cell
